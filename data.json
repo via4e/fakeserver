@@ -1,0 +1,1429 @@
+{
+    "profile_settings": {
+        "contexts": [
+            {
+                "fields": [
+                    {
+                        "form": "required",
+                        "name": "country",
+                        "group": "address",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "date_of_birth",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "first_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "last_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "gender",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "mobile_phone",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "email",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "currency",
+                        "group": "no_group",
+                        "required": true
+                    },
+                    {
+                        "form": "optional",
+                        "name": "game_currency",
+                        "group": "no_group",
+                        "required": false
+                    },
+                    {
+                        "form": "required",
+                        "name": "confirmed_phone",
+                        "group": "confirmation",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "confirmed_at",
+                        "group": "confirmation",
+                        "required": true
+                    }
+                ],
+                "name": "cashout",
+                "from_providers": false
+            },
+            {
+                "fields": [
+                    {
+                        "form": "required",
+                        "name": "country",
+                        "group": "address",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "date_of_birth",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "nickname",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "first_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "last_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "gender",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "mobile_phone",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "receive_newsletters",
+                        "group": "subscriptions",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "receive_promocasino",
+                        "group": "subscriptions",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "receive_promosport",
+                        "group": "subscriptions",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "receive_sms_promos",
+                        "group": "subscriptions",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "receive_new_login_email",
+                        "group": "subscriptions",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "currency",
+                        "group": "no_group",
+                        "required": true
+                    },
+                    {
+                        "form": "optional",
+                        "name": "game_currency",
+                        "group": "no_group",
+                        "required": false
+                    },
+                    {
+                        "form": "required",
+                        "name": "allowed_auto_login",
+                        "group": "settings",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "cookie_accepted",
+                        "group": "no_group",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "australia",
+                        "group": "no_group",
+                        "required": true
+                    }
+                ],
+                "name": "edition",
+                "from_providers": false
+            },
+            {
+                "fields": [
+                    {
+                        "form": "required",
+                        "name": "nickname",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "age_accepted_at",
+                        "group": "consent",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "terms_accepted_at",
+                        "group": "consent",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "receive_newsletters",
+                        "group": "subscriptions",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "receive_promocasino",
+                        "group": "subscriptions",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "receive_promosport",
+                        "group": "subscriptions",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "receive_sms_promos",
+                        "group": "subscriptions",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "email",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "password",
+                        "group": "no_group",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "currency",
+                        "group": "no_group",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "auto_subscription",
+                        "group": "no_group",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "auto_agreement_with_rules",
+                        "group": "no_group",
+                        "required": true
+                    },
+                    {
+                        "form": "optional",
+                        "name": "game_currency",
+                        "group": "no_group",
+                        "required": false
+                    }
+                ],
+                "name": "registration",
+                "from_providers": false
+            },
+            {
+                "fields": [
+                    {
+                        "form": "required",
+                        "name": "currency",
+                        "group": "no_group",
+                        "required": true
+                    },
+                    {
+                        "form": "optional",
+                        "name": "game_currency",
+                        "group": "no_group",
+                        "required": false
+                    }
+                ],
+                "name": "deposit",
+                "from_providers": false
+            },
+            {
+                "fields": [
+                    {
+                        "form": "required",
+                        "name": "country",
+                        "group": "address",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "date_of_birth",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "nickname",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "first_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "last_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "gender",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "mobile_phone",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "email",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "currency",
+                        "group": "no_group",
+                        "required": true
+                    },
+                    {
+                        "form": "optional",
+                        "name": "game_currency",
+                        "group": "no_group",
+                        "required": false
+                    }
+                ],
+                "name": "play",
+                "from_providers": false
+            },
+            {
+                "fields": [
+                    {
+                        "form": "required",
+                        "name": "country",
+                        "group": "address",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "date_of_birth",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "nickname",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "first_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "last_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "gender",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "mobile_phone",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "email",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "currency",
+                        "group": "no_group",
+                        "required": true
+                    },
+                    {
+                        "form": "optional",
+                        "name": "game_currency",
+                        "group": "no_group",
+                        "required": false
+                    }
+                ],
+                "name": "bsg",
+                "from_providers": false
+            },
+            {
+                "fields": [
+                    {
+                        "form": "required",
+                        "name": "country",
+                        "group": "address",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "date_of_birth",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "nickname",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "first_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "last_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "gender",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "mobile_phone",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "email",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "currency",
+                        "group": "no_group",
+                        "required": true
+                    },
+                    {
+                        "form": "optional",
+                        "name": "game_currency",
+                        "group": "no_group",
+                        "required": false
+                    }
+                ],
+                "name": "egt",
+                "from_providers": false
+            },
+            {
+                "fields": [
+                    {
+                        "form": "required",
+                        "name": "country",
+                        "group": "address",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "date_of_birth",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "nickname",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "first_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "last_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "gender",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "mobile_phone",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "email",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "currency",
+                        "group": "no_group",
+                        "required": true
+                    },
+                    {
+                        "form": "optional",
+                        "name": "game_currency",
+                        "group": "no_group",
+                        "required": false
+                    }
+                ],
+                "name": "epicmedia",
+                "from_providers": false
+            },
+            {
+                "fields": [
+                    {
+                        "form": "required",
+                        "name": "country",
+                        "group": "address",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "date_of_birth",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "nickname",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "first_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "last_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "gender",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "mobile_phone",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "email",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "currency",
+                        "group": "no_group",
+                        "required": true
+                    },
+                    {
+                        "form": "optional",
+                        "name": "game_currency",
+                        "group": "no_group",
+                        "required": false
+                    }
+                ],
+                "name": "evolution",
+                "from_providers": false
+            },
+            {
+                "fields": [
+                    {
+                        "form": "required",
+                        "name": "country",
+                        "group": "address",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "date_of_birth",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "nickname",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "first_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "last_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "gender",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "mobile_phone",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "email",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "currency",
+                        "group": "no_group",
+                        "required": true
+                    },
+                    {
+                        "form": "optional",
+                        "name": "game_currency",
+                        "group": "no_group",
+                        "required": false
+                    }
+                ],
+                "name": "groove",
+                "from_providers": false
+            },
+            {
+                "fields": [
+                    {
+                        "form": "required",
+                        "name": "country",
+                        "group": "address",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "date_of_birth",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "nickname",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "first_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "last_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "gender",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "mobile_phone",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "email",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "currency",
+                        "group": "no_group",
+                        "required": true
+                    },
+                    {
+                        "form": "optional",
+                        "name": "game_currency",
+                        "group": "no_group",
+                        "required": false
+                    }
+                ],
+                "name": "isoftbet",
+                "from_providers": false
+            },
+            {
+                "fields": [
+                    {
+                        "form": "required",
+                        "name": "country",
+                        "group": "address",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "date_of_birth",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "nickname",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "first_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "last_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "gender",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "mobile_phone",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "email",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "currency",
+                        "group": "no_group",
+                        "required": true
+                    },
+                    {
+                        "form": "optional",
+                        "name": "game_currency",
+                        "group": "no_group",
+                        "required": false
+                    }
+                ],
+                "name": "netent",
+                "from_providers": false
+            },
+            {
+                "fields": [
+                    {
+                        "form": "required",
+                        "name": "country",
+                        "group": "address",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "date_of_birth",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "nickname",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "first_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "last_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "gender",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "mobile_phone",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "email",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "currency",
+                        "group": "no_group",
+                        "required": true
+                    },
+                    {
+                        "form": "optional",
+                        "name": "game_currency",
+                        "group": "no_group",
+                        "required": false
+                    }
+                ],
+                "name": "playngo",
+                "from_providers": false
+            },
+            {
+                "fields": [
+                    {
+                        "form": "required",
+                        "name": "country",
+                        "group": "address",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "date_of_birth",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "nickname",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "first_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "last_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "gender",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "mobile_phone",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "email",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "currency",
+                        "group": "no_group",
+                        "required": true
+                    },
+                    {
+                        "form": "optional",
+                        "name": "game_currency",
+                        "group": "no_group",
+                        "required": false
+                    }
+                ],
+                "name": "playtech",
+                "from_providers": false
+            },
+            {
+                "fields": [
+                    {
+                        "form": "required",
+                        "name": "country",
+                        "group": "address",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "date_of_birth",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "nickname",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "first_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "last_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "gender",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "mobile_phone",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "email",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "currency",
+                        "group": "no_group",
+                        "required": true
+                    },
+                    {
+                        "form": "optional",
+                        "name": "game_currency",
+                        "group": "no_group",
+                        "required": false
+                    }
+                ],
+                "name": "pragmatic",
+                "from_providers": false
+            },
+            {
+                "fields": [
+                    {
+                        "form": "required",
+                        "name": "country",
+                        "group": "address",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "date_of_birth",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "nickname",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "first_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "last_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "gender",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "mobile_phone",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "email",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "currency",
+                        "group": "no_group",
+                        "required": true
+                    },
+                    {
+                        "form": "optional",
+                        "name": "game_currency",
+                        "group": "no_group",
+                        "required": false
+                    }
+                ],
+                "name": "quickfire",
+                "from_providers": false
+            },
+            {
+                "fields": [
+                    {
+                        "form": "required",
+                        "name": "country",
+                        "group": "address",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "date_of_birth",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "nickname",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "first_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "last_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "gender",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "mobile_phone",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "email",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "currency",
+                        "group": "no_group",
+                        "required": true
+                    },
+                    {
+                        "form": "optional",
+                        "name": "game_currency",
+                        "group": "no_group",
+                        "required": false
+                    }
+                ],
+                "name": "redtiger",
+                "from_providers": false
+            },
+            {
+                "fields": [
+                    {
+                        "form": "required",
+                        "name": "country",
+                        "group": "address",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "date_of_birth",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "nickname",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "first_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "last_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "gender",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "mobile_phone",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "email",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "currency",
+                        "group": "no_group",
+                        "required": true
+                    },
+                    {
+                        "form": "optional",
+                        "name": "game_currency",
+                        "group": "no_group",
+                        "required": false
+                    }
+                ],
+                "name": "relax",
+                "from_providers": false
+            },
+            {
+                "fields": [
+                    {
+                        "form": "required",
+                        "name": "country",
+                        "group": "address",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "date_of_birth",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "nickname",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "first_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "last_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "gender",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "mobile_phone",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "email",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "currency",
+                        "group": "no_group",
+                        "required": true
+                    },
+                    {
+                        "form": "optional",
+                        "name": "game_currency",
+                        "group": "no_group",
+                        "required": false
+                    }
+                ],
+                "name": "wazdan",
+                "from_providers": false
+            },
+            {
+                "fields": [
+                    {
+                        "form": "required",
+                        "name": "country",
+                        "group": "address",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "date_of_birth",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "nickname",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "first_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "last_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "gender",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "mobile_phone",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "email",
+                        "group": "contacts",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "currency",
+                        "group": "no_group",
+                        "required": true
+                    },
+                    {
+                        "form": "optional",
+                        "name": "game_currency",
+                        "group": "no_group",
+                        "required": false
+                    }
+                ],
+                "name": "yggdrasil",
+                "from_providers": false
+            },
+            {
+                "fields": [
+                    {
+                        "form": "required",
+                        "name": "country",
+                        "group": "address",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "date_of_birth",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "nickname",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "first_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "last_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "gender",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "mobile_phone",
+                        "group": "contacts",
+                        "required": true
+                    }
+                ],
+                "name": "betby",
+                "from_providers": false
+            },
+            {
+                "fields": [
+                    {
+                        "form": "required",
+                        "name": "country",
+                        "group": "address",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "date_of_birth",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "first_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "last_name",
+                        "group": "personal_data",
+                        "required": true
+                    },
+                    {
+                        "form": "required",
+                        "name": "gender",
+                        "group": "personal_data",
+                        "required": true
+                    }
+                ],
+                "name": "digitain",
+                "from_providers": false
+            }
+        ],
+        "slug": "global"
+    }
+}
